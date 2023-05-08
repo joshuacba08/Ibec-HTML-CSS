@@ -54,7 +54,7 @@ button, input {
     background-color: #FFFFFF;
     border-radius: 12px;
     width: 340px;
-    height: 460px;
+    height: auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 24px 30px;
     text-align: center;
@@ -89,12 +89,34 @@ button, input {
     border: 1px solid #FFC700;
 }
 
+.form__politycs{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    margin: 24px 0;
+}
+
+.form__politycs .politycs__label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.politycs__label a{
+    color: #FFC700;
+}
+
+.politycs__label a:hover{
+    text-decoration: underline;
+}
+
+
 
 .button-submit{
+    width: 100%;
     background-color: #FFC700;
     border-radius: 8px;
     padding: 9px 12px;
     border: none;
     font-weight: 600;
-    margin: 32px auto;
+    margin: 16px 0;
 }
